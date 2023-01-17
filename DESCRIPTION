@@ -1,0 +1,21 @@
+Package: mids203
+Title: Compute Resources for UC Berkeley, School of Information Course: "Statistics for Data Science"
+Version: 0.0.0.9000
+Authors@R: 
+    person("D. Alex", "Hughes", , "dhughes@berkeley.edu", role = c("aut", "cre"))
+Description: This package encapsulates the entire set of requirements to get work done in 203. If you're starting from a bare R install (or from a more fully featured instance) this will ensure that you have all the necessary packages included. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    tidyverse
+Imports: 
+    car,
+    data.table,
+    latex2exp,
+    lmtest,
+    rmarkdown,
+    sandwich,
+    stargazer,
+    wooldridge
