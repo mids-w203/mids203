@@ -16,6 +16,7 @@ Imports:
     ggthemes,
     latex2exp,
     lmtest,
+    patchwork,
     rmarkdown,
     sandwich,
     stargazer,
